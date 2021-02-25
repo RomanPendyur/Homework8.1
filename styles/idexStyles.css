@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.bodyStyles{
+    background-color: #F0F0F0;    
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.grandPanel{
+    background-color: #FDDE7E;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 70%;
+    padding: 30px;
+}
+
+.panel{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+    margin: 6% 20px;
+    width: 100%;
+}
+
+.price{
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 300%;
+}
+
+.coffeePictuer{
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.smokeOfCoffee{
+    
+    display: flex;
+    margin-top: 15%;
+    margin-left: -35px;
+    margin-bottom: 10px;
+}
+
+.cupOfCoffee{    
+    display: flex;
+}
+
+.seedOfCoffee{    
+    display: flex;
+    margin-top: -57px;
+    margin-left: -20px;
+    opacity: 1;
+    z-index: 999;
+}
+
+.endLine{    
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30%;    
+}
+
+.secondPanel{
+    margin: -0.001% 25px;
+}
+
+.nameOfDrink{
+    font-size: 300%;
+}
